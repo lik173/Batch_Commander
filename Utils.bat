@@ -1,5 +1,5 @@
 @echo off
-title Launched-Batch Commander
+title Utils
 :home
 color 7
 cls
@@ -17,5 +17,5 @@ goto home
 echo python
 echo npp (Notepad++)
 set /p ins=~$
-if %ins%==python start pinstall.exe
+if %ins%==python start pinstall.msi
 if %ins%==npp start nppinstaller.exe
