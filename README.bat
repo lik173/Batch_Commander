@@ -12,8 +12,7 @@ set /p yn=Want to see repository on GitHub?(y/n)
 if %yn%==y start iexplore.exe https://github.com/lik173/Batch_Commander
 if %yn%==n goto end
 
-
+:end
 echo Now press any key to go START.bat
 pause
 start START.bat
-:end
