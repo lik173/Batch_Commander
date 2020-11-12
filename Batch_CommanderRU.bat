@@ -62,9 +62,9 @@ goto help
 
 :utils
 cls
-echo Утилиты
-echo Введите номер:
-echo 1.
+echo Утилиты запускаются...
+start Utils.bat
+goto help
 
 rem ----------System--------------
 :system

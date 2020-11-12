@@ -62,9 +62,9 @@ goto help
 
 :utils
 cls
-echo Utils
-echo Enter number:
-echo 1.
+echo Utils Starting...
+start Utils.bat
+goto menu
 
 rem ----------System--------------
 :system
