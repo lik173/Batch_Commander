@@ -32,7 +32,7 @@ if %answer%==clear goto clear
 if %answer%==color goto color
 if %answer%==system goto system
 if %answer%==info goto info
-if %answer%==perform goto APPCP
+if %answer%==perform start Command_Executor.bat
 if %answer%==settings goto settings
 if %answer%==utils goto utils
 
@@ -151,20 +151,6 @@ if %clearcol%==y color f
 if %clearcol%==n goto menu
 
 goto menu
-:APPCP
-
-echo Command executor
-
-set /p comm=%username%@%pcname%:~$
-
-if %comm%==cmd start
-if %comm%==exit goto exit
-if %comm%==textf color f
-if %comm%==devsite start iexplore.exe https://lik173.github.io
-if %comm%==clear goto clear
-if %comm%==menu goto menu
-
-goto help
 
 
 :windir
