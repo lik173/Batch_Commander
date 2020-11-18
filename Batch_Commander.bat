@@ -22,6 +22,7 @@ echo perform (perform commands)
 echo utils
 echo settings
 goto menu
+echo net
 :Menu
 
 set /p answer= %username%@%pcname%:~$
@@ -35,6 +36,7 @@ if %answer%==info goto info
 if %answer%==perform start Command_Executor.bat
 if %answer%==settings goto settings
 if %answer%==utils goto utils
+if %answer%==net start Net.bat
 
 
 
