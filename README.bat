@@ -2,7 +2,8 @@
 echo Just tool to start some apps and other 
 echo With creating repository i create new changes! 
 echo Im add RU language 
-echo Now in Utils section have a problem.Sorry. 
+echo Added Command_Executor.bat
+echo Utils updated
 echo You can contact with me: contact.lik173@mail.ru 
 echo You can modify this files 
 echo Share some batch scripts to me (not DDoS please)

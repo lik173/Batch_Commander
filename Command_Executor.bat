@@ -4,17 +4,18 @@ title Command Executor
 cls
 echo Command Executor
 echo 1.Batch Commander commands
-echo 2.Hotkeys
+echo 2.Windows commands
+echo 3.Hotkeys
 set /p comm=~$
 
 if %comm%==1 goto bccomms
-if %comm%==2 goto hotkeys
+if %comm%==2 goto wincomms
+if %comm%==3 goto list
 if %comm%==e exit
 if %comm%==p pause
 if %comm%==cl cls
-goto home
 if %comm%==l goto list
-%comm%
+
 cls
 echo R-retry,E-exit
 set /p re=~$
@@ -69,3 +70,11 @@ echo readme
 echo list
 echo home
  goto bccomms
+
+:wincomms
+title CMD
+set /p command=~$
+%command%
+pause
+title Command Executor
+goto home
