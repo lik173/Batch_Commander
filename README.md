@@ -13,3 +13,8 @@ Share some batch scripts to me (not DDoS please)
 > Added Command Executor as new script  
 > Added more functions to Command Executor  
 > Added Net.bat  
+# 24.11.20 Updates  
+>Added folders  
+>Added Systemmgmt.bat  
+>Added cmdisk.bat  
+>RU lang Now End-Of-Life (But you can localize .bat and send me in email)  
